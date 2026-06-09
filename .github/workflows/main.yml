@@ -54,7 +54,7 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: ${{student-task-manager-adie}}
+          AWS_S3_BUCKET: ${{studenttaskmanageradie}}
           AWS_ACCESS_KEY_ID: ${{AKIAZV44MTMYUMRQMKUF}}
           AWS_SECRET_ACCESS_KEY: ${{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}}
           AWS_REGION: ${{ap-southeast-2}}
